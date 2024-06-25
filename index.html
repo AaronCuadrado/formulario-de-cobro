@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div class="p-3 border rounded">
-            <div class="custom-header p-2 bg-light">
-            <h2>Ejemplo de como gastar tu dinero online</h2>
-            </div>
+    <div class="container mt-4">
+        <div class="custom-header border rounded-top p-3 bg-light">
+            <h4>Ejemplo de como gastar tu dinero online</h4>
+        </div>
+        <div class="p-3 border">
             <div class="alert alert-danger mt-3" role="alert">
                 Si te da error, no puedo cobrarte¡Asi que mete bien tus datos Hostia!
             </div>
@@ -117,7 +117,7 @@
                 <div class="row mb-3">
                     <div class="col-md-6">
                         <label class="form-label"><strong>Aceptamos:</strong></label>
-                        <div class="d-flex gap-4 align-items-center">
+                        <div class="col-7 p-2 bg-info-subtle">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="paymentMethod" id="paymentMethod1">
                                 <label class="form-check-label" for="paymentMethod1">
@@ -131,7 +131,7 @@
                                 </label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="paymentMethod" id="paymentMethod3">
+                                <input class="form-check-input " type="radio" name="paymentMethod" id="paymentMethod3">
                                 <label class="form-check-label" for="paymentMethod3">
                                     <i class="fa-brands fa-cc-paypal text-primary"></i>
                                 </label>
@@ -156,12 +156,13 @@
                         <small class="text-muted">Añade notas aqui arriba</small>
                     </div>
                 </div>
-                <div class="custom-footer d-flex justify-content-end gap-2 p-2 bg-light">
-                    <button type="button" class="btn btn-secondary">Cancelar</button>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-            </form>
         </div>
+        <div class="custom-footer border rounded-bottom d-flex justify-content-end gap-2 p-2 bg-light">
+            <button type="button" class="btn btn-secondary">Cancelar </button>
+            <button type="submit" class="btn btn-success">Cobrar</button>
+        </div>
+        </form>
+
     </div>
     <!-- enlace javascript/bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
